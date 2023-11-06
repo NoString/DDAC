@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Im_tHe_rEaL_LiM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\DDAC Assignment.csproj",
+      "projectName": "DDAC Assignment",
+      "projectPath": "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\DDAC Assignment.csproj",
+      "packagesPath": "C:\\Users\\Im_tHe_rEaL_LiM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Im_tHe_rEaL_LiM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
