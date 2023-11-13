@@ -2,13 +2,13 @@
 
 namespace DDAC_Assignment.Controllers
 {
-    public class CustomersController : Controller
+    public class CustomersPageController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult CustCreate()
+        public IActionResult Cust()
         {
             return View();
         }
