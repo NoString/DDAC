@@ -22,6 +22,10 @@ namespace DDAC_Assignment.Controllers
         {
             return View();
         }
+        public IActionResult CustCreate()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

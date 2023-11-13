@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\DDAC Assignment.csproj": {}
+    "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\DDAC Assignment.csproj": {
+    "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\DDAC Assignment.csproj",
+        "projectUniqueName": "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
         "projectName": "DDAC Assignment",
-        "projectPath": "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\DDAC Assignment.csproj",
-        "packagesPath": "C:\\Users\\Im_tHe_rEaL_LiM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Im_tHe_rEaL_LiM\\OneDrive - Asia Pacific University\\Desktop\\APU\\Designing and Developing Applications on the Cloud\\Assignment\\DDAC\\DDAC Assignment\\DDAC Assignment\\obj\\",
+        "projectPath": "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
+        "packagesPath": "C:\\Users\\zhs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Im_tHe_rEaL_LiM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zhs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

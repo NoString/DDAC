@@ -1,4 +1,5 @@
-﻿using DDAC_Assignment.Models;
+﻿using DDAC_Assignment.Controllers;
+using DDAC_Assignment.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DDAC_Assignment.AppData
@@ -11,6 +12,6 @@ namespace DDAC_Assignment.AppData
         }
 
         //属性名 = 表名
-        public DbSet<Customer> sys_customer { get; set; }
+        public DbSet<Customers> Cstomers { get; set; }
     }
 }
