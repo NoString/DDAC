@@ -11,7 +11,6 @@ namespace DDAC_Assignment.AppData
             
         }
 
-        //属性名 = 表名
-        public DbSet<Customers> Cstomers { get; set; }
+        
     }
 }

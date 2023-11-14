@@ -24,8 +24,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = RERBQyBBc3NpZ25tZW50XFZpZXdzXEN1c3RvbWVyXENhbGN1bGF0ZU1lYWxDYWxvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/project/DDAC/DDAC Assignment/Views/CustomersPage/Cust.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzUGFnZVxDdXN0LmNzaHRtbA==
+[C:/project/DDAC/DDAC Assignment/Views/AdminPage/Member.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlXE1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/DDAC/DDAC Assignment/Views/CustomerPage/CalculateMealCalories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJQYWdlXENhbGN1bGF0ZU1lYWxDYWxvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/project/DDAC/DDAC Assignment/Views/Home/Index.cshtml]

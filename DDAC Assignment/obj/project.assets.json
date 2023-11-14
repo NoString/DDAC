@@ -3070,11 +3070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
+      "projectUniqueName": "C:\\project\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
       "projectName": "DDAC Assignment",
-      "projectPath": "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
+      "projectPath": "C:\\project\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
       "packagesPath": "C:\\Users\\zhs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zhs\\Source\\Repos\\DDAC\\DDAC Assignment\\obj\\",
+      "outputPath": "C:\\project\\DDAC\\DDAC Assignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
