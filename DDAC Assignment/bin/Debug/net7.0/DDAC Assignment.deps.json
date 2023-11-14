@@ -197,7 +197,6 @@
           "System.Data": "4.0.0.0",
           "System.Diagnostics.Contracts": "7.0.0.0",
           "System.Diagnostics.Debug": "7.0.0.0",
-          "System.Diagnostics.DiagnosticSource.Reference": "7.0.0.0",
           "System.Diagnostics.EventLog": "7.0.0.0",
           "System.Diagnostics.FileVersionInfo": "7.0.0.0",
           "System.Diagnostics.Process": "7.0.0.0",
@@ -812,7 +811,17 @@
           "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/7.0.2": {},
+      "System.Diagnostics.DiagnosticSource/7.0.2": {
+        "runtime": {
+          "lib/net7.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.423.11508"
+          }
+        },
+        "compile": {
+          "lib/net7.0/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
       "System.Drawing.Common/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1918,12 +1927,6 @@
       "System.Diagnostics.Debug/7.0.0.0": {
         "compile": {
           "System.Diagnostics.Debug.dll": {}
-        },
-        "compileOnly": true
-      },
-      "System.Diagnostics.DiagnosticSource.Reference/7.0.0.0": {
-        "compile": {
-          "System.Diagnostics.DiagnosticSource.dll": {}
         },
         "compileOnly": true
       },
@@ -3957,11 +3960,6 @@
       "sha512": ""
     },
     "System.Diagnostics.Debug/7.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Diagnostics.DiagnosticSource.Reference/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

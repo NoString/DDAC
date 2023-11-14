@@ -22,6 +22,11 @@ namespace DDAC_Assignment.Controllers
         {
             return View();
         }
+
+        public IActionResult Member()
+        {
+            return View();
+        }
         public IActionResult CustCreate()
         {
             return View();
