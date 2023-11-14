@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj": {}
+    "C:\\Users\\Im_tHe_rEaL_LiM\\source\\repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj": {}
   },
   "projects": {
-    "C:\\project\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj": {
+    "C:\\Users\\Im_tHe_rEaL_LiM\\source\\repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
+        "projectUniqueName": "C:\\Users\\Im_tHe_rEaL_LiM\\source\\repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
         "projectName": "DDAC Assignment",
-        "projectPath": "C:\\project\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
-        "packagesPath": "C:\\Users\\zhs\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\DDAC\\DDAC Assignment\\obj\\",
+        "projectPath": "C:\\Users\\Im_tHe_rEaL_LiM\\source\\repos\\DDAC\\DDAC Assignment\\DDAC Assignment.csproj",
+        "packagesPath": "C:\\Users\\Im_tHe_rEaL_LiM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Im_tHe_rEaL_LiM\\source\\repos\\DDAC\\DDAC Assignment\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zhs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Im_tHe_rEaL_LiM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -51,6 +55,20 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -84,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
