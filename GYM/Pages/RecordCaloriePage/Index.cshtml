@@ -1,0 +1,66 @@
+﻿@page
+@model GYM.Pages.RecordCaloriePage.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<img style="width:100%" src="http://www.apu.edu.my/sites/default/files/2023_qs_banner_1st-2.2_website_960x126px.png" />
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordCalorie[0].EventName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordCalorie[0].EventType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordCalorie[0].Calorie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordCalorie[0].Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordCalorie[0].UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordCalorie[0].RecordDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.RecordCalorie) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calorie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecordDate)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

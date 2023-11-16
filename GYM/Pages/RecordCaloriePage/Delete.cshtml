@@ -1,0 +1,58 @@
+﻿@page
+@model GYM.Pages.RecordCaloriePage.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>RecordCalorie</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordCalorie.EventName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RecordCalorie.EventName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordCalorie.EventType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RecordCalorie.EventType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordCalorie.Calorie)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RecordCalorie.Calorie)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordCalorie.Username)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RecordCalorie.Username)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordCalorie.UserId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RecordCalorie.UserId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordCalorie.RecordDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RecordCalorie.RecordDate)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="RecordCalorie.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

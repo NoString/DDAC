@@ -1,0 +1,72 @@
+﻿@page
+@model GYM.Pages.CoursePage.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<img style="width:100%" src="http://www.apu.edu.my/sites/default/files/2023_qs_banner_1st-2.2_website_960x126px.png" />
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].CourseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].Duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].CoachName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].CoachPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].BurnCalories)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Course) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoachName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoachPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BurnCalories)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

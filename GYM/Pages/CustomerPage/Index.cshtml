@@ -1,0 +1,72 @@
+﻿@page
+@model GYM.Pages.CustomerPage.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<img style="width:100%" src="http://www.apu.edu.my/sites/default/files/2023_qs_banner_1st-2.2_website_960x126px.png" />
+
+<p>
+    <a asp-page="Create">Register new Customer</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Realname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Customer) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Realname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
